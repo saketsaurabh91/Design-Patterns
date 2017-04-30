@@ -19,8 +19,9 @@ public class SingletonObject implements Serializable{
 		return singletonObject;
 	}
 	
-	  Object readResolve(){
-		 System.out.println("entering private");
+	// does not matter what the access modifier is as serialization has access to private methods as well
+	  private Object readResolve(){
+		 System.out.println("Entering private method");
 		 return getInstance();
 	 }
 }
