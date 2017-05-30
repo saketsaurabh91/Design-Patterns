@@ -19,3 +19,4 @@ public class DemoCompositePattern {
 		draw.draw("INVISIBLE");
 	}
 }
+

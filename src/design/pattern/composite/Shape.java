@@ -1,6 +1,6 @@
 package design.pattern.composite;
 
-public abstract class Shape {
+public interface Shape {
 
-	public abstract void draw(String color);
+	public void draw(String color);
 }

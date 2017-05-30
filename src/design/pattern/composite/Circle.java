@@ -1,6 +1,6 @@
 package design.pattern.composite;
 
-public class Circle extends Shape {
+public class Circle implements Shape {
 
 	@Override
 	public void draw(String color) {

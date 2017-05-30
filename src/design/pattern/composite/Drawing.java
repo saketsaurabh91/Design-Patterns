@@ -3,7 +3,7 @@ package design.pattern.composite;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Drawing extends Shape {
+public class Drawing implements Shape {
 
 	public List<Shape> operations = new ArrayList<Shape>();
 
